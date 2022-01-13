@@ -14,7 +14,7 @@ console.log("Este es un mensaje para la consola");
 
 var nombre = "Carolina"; //Variables entre comillas son consideran como cadenas de texto
 var apellidos = "Carrillo Quezada";
-var edad = 29; //Si la variable no tiene comillas, se considera como valor númerico
+var edad = 25; //Si la variable no tiene comillas, se considera como valor númerico
 
 console.log(nombre, apellidos, edad);
 

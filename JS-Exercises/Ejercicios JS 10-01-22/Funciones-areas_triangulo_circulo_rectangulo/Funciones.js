@@ -7,12 +7,14 @@ function areaTriangulo(){
 }
 areaTriangulo();
 
+
 /*funcion de area circulo*/
 function areaCirculo(radio){
     var resCirculo = Math.PI*(radio**2);
     console.log("El área del círculo es: " + resCirculo);
 }
 areaCirculo(20);
+
 
 /*funcion de area rectángulo*/
 function areaRectangulo(b=10, a=4){
