@@ -1,0 +1,41 @@
+<!--
+Exercise #3
+Write a function and call it when clicking a button to show an alert with:
+
+The number of links on the page
+The first link in the page
+The last link in the page
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>JS DOM paragraph style</title>
+</head>
+<script src="./script.js"></script>
+
+<body>
+    <a href="youtube.com" class="link">hola</a>
+    <a href="facebook.com" class="link">que tal</a>
+    <a href="metrofog.com" class="link">saludos</a>
+    <div>
+        <button id="jsstyle" onclick="js_style()">Style</button>
+    </div>
+    <script>
+
+        function js_style() {
+            var contar = document.getElementsByTagName("a").length;
+            alert("son " + contar + " links los que hay");
+            var contar1 = document.getElementsByTagName("a")[0].href;
+            alert("Este es el ultimo link " + contar1);
+            var contar2 = document.getElementsByTagName("a")[contar - 1].href;
+            alert("Este es el ultimo link " + contar2);
+            document.getElementById("jsstyle").addEventListener("click",)
+        }
+    </script>
+
+</body>
+
+</html>
