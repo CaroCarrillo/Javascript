@@ -18,5 +18,4 @@ function businessHours(yearDayNumber, hourNumber){
         return false;
     }
 }
-
 businessHours(1,19);
